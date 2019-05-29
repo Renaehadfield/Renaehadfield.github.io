@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <title>South East Idaho Weather</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="description" content="Weather and weather related stories for South East Idaho.">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/small-6.css">
+   <link rel="stylesheet" href="css/large-6.css">
+   <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+</head>
+
+<body>
+   <header>
+      <img src="images/logo.png" alt="Image of sun and clouds.">
+      <section class="headings">
+         <h1>SEIdahoWeather</h1>
+         <div class="motto">
+            Make sure you’re weather ready.
+         </div>
+      </section>
+   </header>
+   <nav>
+
+      <ul class="navigation">
+         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="preston-4.html" class="active">Preston</a></li>
+         <li><a href="sodasprings.html">Soda Springs</a></li>
+         <li><a href="fishhaven.html">Fish Haven</a></li>
+         <li><a href="stormcenter.html">Storm Center</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+   </nav>
+   <main>
+      <h2>Preston, Idaho</h2>
+      <div class="current">
+         <picture>
+            <source srcset="images/largecountry.jpg" media="(min-width: 45em)">
+            <img src="images/smallcountry.jpg" alt="A map with idaho as the focal point.">
+         </picture>
+         <section class="summery">
+            <h2>Current Summery</h2>
+            <h3>Current: Sunny</h3>
+            <h3>High: 70 &#8457;</h3>
+            <h3>Wind Chill: 68 &#8457;</h3>
+            <h3>Humidity: 80%</h3>
+            <h3>Wind Speed: 15mph</h3>
+         </section>
+      </div>
+
+      <section class="fiveday">
+         <h3>5 Day Forecast</h3>
+         <table>
+            <tr>
+               <th>Monday</th>
+               <th>Tuesday</th>
+               <th>Wednesday</th>
+               <th>Thursday</th>
+               <th>Friday</th>
+            </tr>
+            <tr>
+               <td><img src="images/sun.png" alt="Sun graphic image."><br>69 &#8457;</td>
+               <td><img src="images/sun.png" alt="Sun graphic image."><br>71 &#8457;</td>
+               <td><img src="images/sun.png" alt="Sun graphic image."><br>72 &#8457;</td>
+               <td><img src="images/sun.png" alt="Sun graphic image."><br>70 &#8457;</td>
+               <td><img src="images/sun.png" alt="Sun graphic image."><br>68 &#8457;</td>
+            </tr>
+         </table>
+      </section>
+
+      <section class="news">
+         <article class="story">
+            <h3>Thousands of Idaho Residents Rattled by More Than 60 Earthquakes</h3>
+            <p>By Pam WrightSeptember 04 2017 05:30 AM EDTweather.com</p>
+            <p>One of the strongest earthquakes to hit Idaho in years struck the southeastern region of the state
+               Saturday
+               night, followed by more than 60 smaller quakes throughout the night and into Saturday.</p>
+            <p>According to the Idaho State Journal, residents in Caribou County were startled by the 5.3-magnitude
+               earthquake that hit shortly before 6 p.m local time Saturday. No structural damage or injuries were
+               reported.</p>
+            <p>The United States Geological Survey said the initial quake was relatively shallow at a depth of 6.2 miles
+               and was located about 10 miles east of Soda Springs, Idaho.<a
+                  href="https://weather.com/news/news/southeast-idaho-earthquakes">Continue to full article</a>
+
+         </article>
+         <figure class="idaho">
+            <img src="images/idaho.jpg" alt="A map with idaho as the focal point.">
+         </figure>
+      </section>
+
+      <section class="information">
+
+         <section class="contact">
+            <h3>The Weather Site</h3>
+            <p>30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <br>
+            <p>&#9742; 999-999-9999</p>
+            <p>&#9993;theweathersite@tws.com</p>
+
+            <p><img src="images/pinterest.png" alt="pinterest Logo">
+               <img src="images/facebook.png" alt="Facebook Logo">
+               <img src="images/twitter.png" alt="Twitter Logo"></p>
+         </section>
+         <figure class="weather">
+            <img src="images/weather.jpg" alt="A map with idaho as the focal point.">
+         </figure>
+      </section>
+   </main>
+   <footer>
+      <p>&#169; The Weather Site | Renae Hadfield</p>
+      <p id="displayDate"></p>
+
+   </footer>
+   <script src="js/hamburger.js"></script>
+   <script src="js/currentdate.js"></script>
+</body>
