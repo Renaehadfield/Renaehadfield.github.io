@@ -1,0 +1,241 @@
+/********This is the header******/
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img,
+.headings {
+    display: block;
+    margin: 10px;
+}
+
+.headings {
+    margin-left: 0px;
+}
+
+header img {
+    margin-right: 5px;
+    width: 35px;
+    height: 40px;
+}
+
+header {
+    background: #3A5672;
+    margin: 10px auto;
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.motto {
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+main h2 {
+    text-align: center;
+}
+
+/********NAVIGATION******/
+nav {
+    font-family: 'Amaranth', 'Akko Rounded Std', Calibri, sans-serif;
+    font-size: 25px;
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #77a6b6;
+}
+
+nav ul {
+    margin-top: 0px;
+
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #ffffff;
+    background-color: #F9A109;
+    font-weight: 700;
+}
+
+.active, .btn:hover {
+    background-color: #F9A109;
+    color: #ffffff;
+  }
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+}
+
+
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+    margin-top: 10px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/********CURRENT SUMMERY******/
+.current {
+    position: relative;
+    justify-content: center;
+}
+
+.current img {
+    width: 100%;
+    border: 1px solid #3A5672;
+
+}
+
+.current h3 {
+    text-align: right;
+    font-size: 16px;
+}
+
+.current h2 {
+    font-size: 19px;
+}
+
+.summery {
+    bottom: -15px;
+    left: 15px;
+    background: #77a6b6;
+    border: 1px solid #000;
+    padding: 1rem;
+    box-shadow: 0 0 30px #fff;
+}
+
+/********FIVE DAY******/
+.fiveday {
+    display: none;
+}
+
+/********NEWS ARTICLE******/
+.news {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #77a6b6;
+    border: solid 1px #3A5672;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.story {
+    text-align: left;
+}
+
+.story h3 {
+    margin-bottom: -15px;
+}
+
+.news img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/********INFORMATION*****/
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #77a6b6;
+    padding-bottom: 10px;
+}
+
+.contact h3 {
+    line-height: .1;
+    text-align: center;
+}
+
+.contact p {
+    line-height: .1;
+    text-align: center;
+}
+
+.contact img {}
+
+.weather img {
+    width: 60%;
+    border: solid 1px #3A5672;
+    margin: 0 auto;
+}
+
+.weather {
+    text-align: center;
+}
+
+/********FOOTER******/
+footer {
+    background-color: #3A5672;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+footer p {
+    line-height: .5;
+    text-align: center;
+}
+
+/******GALLERY PAGE********/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+.gallery figure {
+    border: 1px solid #3A5672;
+}
