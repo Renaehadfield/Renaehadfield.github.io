@@ -1,0 +1,51 @@
+/* Week 8 table */
+body {
+    font-family: Ubuntu, sans-serif;
+    align-content: center;
+}
+
+table{
+    padding: 5px 10px;
+    box-shadow: 5px 10px 5px grey;
+    
+   
+}
+table, th, td {
+    border: 1px solid  grey;
+    border-collapse: collapse;
+    padding: 5px 10px;
+    text-align: center;
+}
+table#west tr:nth-child(even) {
+    background-color: #e7ffed;
+  }
+  table#west tr:nth-child(odd) {
+    background-color:  #e7f0ed;
+  }
+tbody tr:nth-child(1) td {
+background: #628ca6;
+color: white;
+font-size: 20px;
+}
+tbody tr:nth-child(5) td:nth-child(3){
+  background-color: #628ca6;
+}
+tbody tr:nth-child(6) td:nth-child(1){
+  font-style: italic;
+}
+
+  
+  thead {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  tfoot {
+    font-size: 12px; 
+  }
+   
+  thead th, tfoot td {
+    background-color: #7fb9c2;
+
+  }
+
