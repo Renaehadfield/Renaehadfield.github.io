@@ -268,7 +268,7 @@ form label.top, form div {
 }
 
 form lable.top input, form lable.top select{
-    -webkit-apperance: none;
+    
     display: block;
     font-size: 1rem;
     border: solid 1px #3A5672;
