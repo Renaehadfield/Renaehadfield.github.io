@@ -316,3 +316,21 @@ textarea {
     text-align: left;
     padding-left: 110px;
 }
+
+/******Home PAGE********/
+
+aside article {
+    width: 100%;
+    text-align: center;
+    border: solid 1px #3A5672;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+article img {
+    width: 100%;
+}
+
+.orange {
+    color: orange;
+}

@@ -186,3 +186,12 @@
 form label.sbs {
     padding: .4rem 0;
 }
+
+/******Home Page********/
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
