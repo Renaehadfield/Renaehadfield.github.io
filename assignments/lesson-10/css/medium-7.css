@@ -1,0 +1,27 @@
+@media only screen and (min-width: 35em) {
+
+    /******GALLERY PAGE********/
+    nav {
+        font-size: 2vw;
+    }
+    .gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    aside article {
+        width: 31%;
+        margin-bottom: 10px;
+        
+    }
+
+    aside {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
