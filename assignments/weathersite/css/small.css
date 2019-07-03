@@ -16,8 +16,8 @@ header img,
 }
 
 header img {
-    margin-right: 5px;
-    width: 35px;
+    margin-right: 0px;
+    width: 30px;
     height: 40px;
 }
 
@@ -30,7 +30,7 @@ header {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 4vw;
     color: #ffffff;
     margin-bottom: 0px;
     padding-top: 10px;
