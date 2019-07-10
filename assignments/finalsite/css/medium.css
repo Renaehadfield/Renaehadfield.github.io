@@ -1,0 +1,26 @@
+@media only screen and (min-width: 35em) {
+
+    /******GALLERY PAGE********/
+    nav {
+        font-size: 2vw;
+    }
+
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+/********Brigham Information******/
+.inform {
+    position: absolute;
+    bottom: -5px;
+    left: 15px;
+    background: #9DA3AD;
+    border: 1px solid #592E43;
+    padding: 1rem;
+    box-shadow: 0 0 30px #fff;
+}
+}
