@@ -33,20 +33,20 @@
 
        myH2.textContent = temples[i].name;
        if (towns[i].name=="Brigham City Utah Temple"){
-        myImg.setAttribute('src','images/preston.jpg'); 
-        myImg.setAttribute('alt','View of lake and mountains');
+        myImg.setAttribute('src','images/'); 
+        myImg.setAttribute('alt','A view of the Brigham City Utah temple');
       }
       else if (towns[i].name=="Logan Utah Temple"){
-        myImg.setAttribute('src','images/soda.jpg'); 
-        myImg.setAttribute('alt','Country view of round hay bell.');
+        myImg.setAttribute('src','images/'); 
+        myImg.setAttribute('alt','A view of the Logan Utah Temple.');
       }
       else if (towns[i].name=="Ogden Utah Temple"){
-        myImg.setAttribute('src','images/fish.jpg'); 
-        myImg.setAttribute('alt','View of mountains and a small cabin');
+        myImg.setAttribute('src','images/'); 
+        myImg.setAttribute('alt','View of the Ogden Utah Temple');
       }
       else if (towns[i].name=="Bountiful Utah Temple"){
-          myImg.setAttribute('src','images/fish.jpg'); 
-          myImg.setAttribute('alt','View of mountains and a small cabin');
+          myImg.setAttribute('src','images/'); 
+          myImg.setAttribute('alt','View of the Bountiful Utah Temple');
         }
        myPara1.textContent = 'Address: ' + temples[i].address;
         myPara2.textContent = 'Telephone: ' + temples[i].telephone;
