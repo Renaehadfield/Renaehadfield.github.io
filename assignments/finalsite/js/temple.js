@@ -48,13 +48,13 @@
           myImg.setAttribute('src','images/bountiful.jpg'); 
           myImg.setAttribute('alt','View of the Bountiful Utah Temple');
         }
-       myPara1.textContent = 'Address: ' + temples[i].address;
-        myPara2.textContent = 'Telephone: ' + temples[i].telephone;
+       myPara1.textContent = 'Address:' + temples[i].address;
+        myPara2.textContent = 'Telephone:' + temples[i].telephone;
         myPara3.textContent = 'Email:' + temples[i].email;
         myPara4.textContent = 'Services:' + temples[i].services;
         myPara5.textContent = 'History:' + temples[i].history;
-        myPara6.textContent = 'Sessions:' + temples[i].sessions;
-        myPara7.textContent = 'Closures:' + temples[i].closures;
+        myPara6.textContent = 'Sessions:' + temples[i].session;
+        myPara7.textContent = 'Closures:' + temples[i].closure;
         
 
         myArticle.appendChild(myH2);

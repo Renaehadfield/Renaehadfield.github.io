@@ -41,5 +41,6 @@ aside article {
 aside {
     display: flex;
     justify-content: space-between;
+    
 }
 }

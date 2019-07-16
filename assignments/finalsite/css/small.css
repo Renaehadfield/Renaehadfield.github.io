@@ -325,7 +325,7 @@ form labe.top input:required:valid {
      margin-bottom: 13px;
  }
 
- dd a:link, dt a:link {
+  dd a:link, dt a:link {
     background-color: #B5CA8D;
     padding: 2px;
     text-decoration: none;
@@ -344,6 +344,32 @@ form labe.top input:required:valid {
     grid-template-columns: 1fr 1fr;
   }
 
+  /********TEMPLE******/
+aside article {
+    width: 100%;
+    text-align: left;
+    border: solid 1px #592E43;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+article img {
+    width: 100%;
+}
+
+.orange {
+    color: #592E43;
+}
+.now {
+    background-color: #9DA3AD;
+    width: 100%;
+    padding: 10px;
+}
+
+.current {
+    margin-left: 50px;
+}
+
 /********FOOTER******/
 footer {
     background-color: #592E43;
@@ -356,20 +382,8 @@ footer p {
     text-align: center;
     color: #f2f2f2;
 }
-/********TEMPLE******/
-aside article {
-    width: 100%;
-    text-align: center;
-    border: solid 1px #3A5672;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-}
-article img {
-    width: 100%;
-}
-
-.orange {
-    color: #F9A109;
+footer a:link {
+    text-decoration: none;
+    color: #9DA3AD;
 }
 
