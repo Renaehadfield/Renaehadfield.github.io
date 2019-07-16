@@ -118,7 +118,8 @@ h2 {
 }
 
 /********Gallery******/
-.gallery, .recTop {
+.gallery,
+.recTop {
     display: none;
 }
 
@@ -133,7 +134,7 @@ h2 {
 }
 
 .brig img {
-    
+
     border: 1px solid #592E43;
 
 }
@@ -188,7 +189,11 @@ h2 {
 
 .map {
     width: 60%;
-    margin: center;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;            
 }
 
 /********Contact******/
@@ -213,6 +218,7 @@ h2 {
 .ques {
     color: #592E43;
 }
+
 .miss form input.btn {
     border: none;
     background-color: #592E43;
@@ -241,8 +247,9 @@ form fieldset {
     padding: .5rem 2%;
     width: 80%;
     background-color: #9DA3AD;
-    
+
 }
+
 form legend {
     color: #0c0c0c;
     font-weight: bold;
@@ -250,15 +257,17 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.top,
+form div {
     display: block;
     padding-top: 1.2rem;
     color: #0c0c0c;
     font-size: .8rem;
 }
 
-form lable.top input, form lable.top select{
-   
+form lable.top input,
+form lable.top select {
+
     display: block;
     font-size: 1rem;
     border: solid 1px #592E43;
@@ -270,7 +279,7 @@ form lable.top input, form lable.top select{
     background-color: #0c0c0c;
 }
 
-form label.sbs{
+form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #0c0c0c;
@@ -286,18 +295,21 @@ form input.submitBtn {
     width: 30%;
     max-width: 20rem;
 }
+
 textarea {
     width: 95%;
     height: 100px;
     margin-bottom: 10px;
 }
+
 form label.top input:required {
-    border-left: #592E43; solid 6px;
+    border-left: #592E43 solid 6px;
 }
 
 form labe.top input:required:valid {
     border-left: #592E43 solid 6px;
 }
+
 .h3info {
     margin-bottom: 0px;
 }
@@ -308,43 +320,51 @@ form labe.top input:required:valid {
     margin-left: 30px;
 }
 
- .special, .free {
-   margin-left: 60px; 
-   line-height: 2;
+.special,
+.free {
+    margin-left: 60px;
+    line-height: 2;
 }
 
 /********RECEPTION*****/
 
-.reception, .suite {
-    margin-left: 60px; 
- }
- dt {
-    line-height: 2;
- }
- dd {
-     margin-bottom: 13px;
- }
+.reception,
+.suite {
+    margin-left: 60px;
+}
 
-  dd a:link, dt a:link {
+dt {
+    line-height: 2;
+}
+
+dd {
+    margin-bottom: 13px;
+}
+
+dd a:link,
+dt a:link {
     background-color: #B5CA8D;
     padding: 2px;
     text-decoration: none;
     color: #0c0c0c;
-    
-  }
-  dd a:hover, dt a:hover {
+
+}
+
+dd a:hover,
+dt a:hover {
     color: #592E43;
-  }
+}
+
 /********Missionary******/
-  .missionGal {
+.missionGal {
     display: flex;
     justify-content: center;
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
+}
 
-  /********TEMPLE******/
+/********TEMPLE******/
 aside article {
     width: 100%;
     text-align: left;
@@ -353,6 +373,7 @@ aside article {
     padding: 10px;
     margin-top: 10px;
 }
+
 article img {
     width: 100%;
 }
@@ -360,6 +381,7 @@ article img {
 .orange {
     color: #592E43;
 }
+
 .now {
     background-color: #9DA3AD;
     width: 100%;
@@ -382,8 +404,8 @@ footer p {
     text-align: center;
     color: #f2f2f2;
 }
+
 footer a:link {
     text-decoration: none;
     color: #9DA3AD;
 }
-
