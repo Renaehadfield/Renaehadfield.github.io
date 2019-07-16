@@ -118,7 +118,7 @@ h2 {
 }
 
 /********Gallery******/
-.gallery {
+.gallery, .recTop {
     display: none;
 }
 
@@ -191,26 +191,162 @@ h2 {
     margin: center;
 }
 
-/********FORM******/
-form {
+/********Contact******/
+.miss {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+.miss form {
     margin: 2rem 0;
     border: 2px solid #592E43;
     background-color: #B5CA8D;
     border-radius: 10px;
     padding: .5rem 2%;
     width: 80%;
-   margin-left: 100px;
+    margin-left: 100px;
 }
 
-textarea {
+.miss textarea {
     width: 70%;
-    height: 80px;
+    height: 150px;
 }
 
 .ques {
     color: #592E43;
+    margin-right: 5px;
+}
+form input.btn {
+    border: none;
+    background-color: #592E43;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 10%;
+    max-width: 5rem;
 }
 
+/********Reservation******/
+
+.reserve {
+    margin: 30px;
+    width: 90%;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+    border: 2px solid #592E43;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 80%;
+    background-color: #9DA3AD;
+    
+}
+form legend {
+    color: #0c0c0c;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1.2rem;
+    color: #0c0c0c;
+    font-size: .8rem;
+}
+
+form lable.top input, form lable.top select{
+   
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #592E43;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #0c0c0c;
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #0c0c0c;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #592E43;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 30%;
+    max-width: 20rem;
+}
+textarea {
+    width: 95%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+form label.top input:required {
+    border-left: #592E43; solid 6px;
+}
+
+form labe.top input:required:valid {
+    border-left: #592E43 solid 6px;
+}
+.h3info {
+    margin-bottom: 0px;
+}
+
+/********SERVICES******/
+
+.service h3 {
+    margin-left: 30px;
+}
+
+ .special, .free {
+   margin-left: 60px; 
+   line-height: 2;
+}
+
+/********RECEPTION*****/
+
+.reception, .suite {
+    margin-left: 60px; 
+ }
+ dt {
+    line-height: 2;
+ }
+ dd {
+     margin-bottom: 13px;
+ }
+
+ dd a:link, dt a:link {
+    background-color: #B5CA8D;
+    padding: 2px;
+    text-decoration: none;
+    color: #0c0c0c;
+    
+  }
+  dd a:hover, dt a:hover {
+    color: #592E43;
+  }
+/********Missionary******/
+  .missionGal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
 /********FOOTER******/
 footer {
@@ -224,3 +360,4 @@ footer p {
     text-align: center;
     color: #f2f2f2;
 }
+

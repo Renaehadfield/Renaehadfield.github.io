@@ -5,25 +5,27 @@
     <title>Home of Temple Inn and Suites</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Where you can find all your temple needs and questions met.">
+    <meta name="description" content="We will meet your reservation needs here.">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
-    
+
 </head>
+
 <body>
     <header>
         <section class="head">
-           <!--<img src="images/temlogo.jpg" alt="Angel Moroni on a temple spire.">--> 
+
             <section class="headings">
                 <h1>Temple Inn & Suites</h1>
                 <div class="motto">
                     Meet your temple needs.
                 </div>
-                
+
             </section>
+            <img src="images/templogo.jpg" alt="Simple temple shaped logo.">
         </section>
     </header>
     <nav>
@@ -37,21 +39,73 @@
             <li><a class="btn" href="contact.html">Contact</a></li>
         </ul>
     </nav>
-<main>
-            
-          
-            <aside>
-          
-            </aside>
-        </main>
-    
+    <main>
+        <h2>Reserve Today!</h2>
+        <section class="gallery">
+            <figure>
+                <img src="images/king.jpg" alt="Youth walking up to a temple">
+            </figure>
+            <figure>
+                <img src="images/twobed.jpg" alt="Brigham City Temple">
+            </figure>
+            <figure>
+                <img src="images/towels.jpg" alt="Angel Moroni at top of a temple">
+            </figure>
+            <figure>
+                <img src="images/suite.jpg" alt="Nauvoo Temple">
+            </figure>
+        </section>
+        <div>
+            <form class="reserve">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name*<input type="text" name="fullname" minlength="5"
+                            pattern="[a-zA-Z0-9\s]+" required></label>
+                    <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Zip Code*<input type="number" name="zip" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Date, People, and Rooms</legend>
+                    <label class="top"> Check-In-Date <input type="date" name="completeDate"></label>
+                    <label class="top"> Check-Out-Date <input type="date" name="completeDate"></label>
+                    <label class="top" action="/action_page.php">
+                        Quantity (between 1 and 6):
+                        <input type="number" name="Number Per room" min="1" max="6">
+                        <label>
+                            <label class="top">Room Type
+                                <input list="room" name="room">
+                                <datalist id="room">
+                                    <option value="Queen">
+                                    <option value="2 Queen">
+                                    <option value="King">
+                                    <option value="Queen Studio">
+                                    <option value="King Studio">
+                                </datalist>
+                            </label>
+
+                </fieldset>
+                <fieldset>
+                    <h4 class="h3info">Special Accommodations or Comments</h4>
+
+                    <textarea name="message"></textarea>
+
+                    <input type="submit" value="Submit" class="submitBtn">
+                </fieldset>
+
+
+            </form>
+        </div>
+
+    </main>
+
     <footer>
         <p>&#169; Temple Inn and Suites | Renae Hadfield</p>
 
         <script src="js/hamburger.js"></script>
         <script src="js/active.js"></script>
-        
-    
-    </body>
 
-    </html>
+
+</body>
+
+</html>
