@@ -31,4 +31,15 @@
     padding: 1rem;
     box-shadow: 0 0 30px #fff;
 }
+/********TEMPLE******/
+aside article {
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+}
 }
