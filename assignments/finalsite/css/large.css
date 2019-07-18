@@ -1,5 +1,9 @@
 @media only screen and (min-width: 45em) {
 
+    body{
+        min-width: 870px;
+    }
+
     /********NAVIGATION******/
     .navigation {
         flex-direction: row;
