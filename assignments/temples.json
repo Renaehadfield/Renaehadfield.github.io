@@ -1,7 +1,7 @@
 {
     "temples": [{
             "name": "Brigham City Utah Temple",
-            "photo": "franklin.jpg",
+            "photo": "brigham.jpg",
             "address": ["250 S. Main St., Brigham City UT 84302"],
             "telephone": "435-695-2170",
             "email": "brigham@lds.org",
@@ -33,7 +33,7 @@
         },
         {
             "name": "Logan Utah Temple",
-            "photo": "franklin.jpg",
+            "photo": "logan.jpg",
             "address": ["175 N 300 E", "Logan UT 84321-4720"],
             "telephone": "435-752-3611",
             "email": "logan@lds.org",
@@ -67,10 +67,10 @@
         },
         {
             "name": "Ogden Utah Temple",
-            "photo": "franklin.jpg",
+            "photo": "ogden.jpg",
             "address": ["350 22nd St", "Ogden UT 84401-1487"],
             "telephone": "801 - 621 - 6880",
-             "email": "logan@lds.org",
+             "email": "ogden@lds.org",
             "services": [
                 "Clothing rental available",
                 "Cafeteria available",
@@ -102,7 +102,7 @@
         },
         {
             "name": "Bountiful Utah Temple",
-            "photo": "franklin.jpg",
+            "photo": "bountiful.jpg",
             "address": ["640 S Bountiful Blvd", "Bountiful UT 84010-1394"],
             "telephone": "801 - 296 - 2100",
              "email": "bountiful@lds.org",
